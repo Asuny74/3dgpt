@@ -1,0 +1,33 @@
+{
+  "resinPrices": {
+    "Grey Pro": 150,
+    "Clear": 180,
+    "Tough": 170,
+    "Flexible": 200,
+    "Castable": 200
+  },
+  "quantityMarkups": [
+    { "min": 1, "max": 1, "markup": 50 },
+    { "min": 2, "max": 5, "markup": 30 },
+    { "min": 6, "max": 10, "markup": 20 },
+    { "min": 11, "max": 20, "markup": 10 },
+    { "min": 21, "max": null, "markup": 5 }
+  ],
+  "machineHourlyRate": 5,
+  "preparationFee": 10,
+  "vatRate": 20,
+  "deliveryOptions": [
+    {
+      "name": "Standard",
+      "duration": "5-7 jours",
+      "costType": "flat",
+      "cost": 0
+    },
+    {
+      "name": "Express",
+      "duration": "2-3 jours",
+      "costType": "percentage",
+      "cost": 20
+    }
+  ]
+}
