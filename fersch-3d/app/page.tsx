@@ -12,6 +12,13 @@ export default function HomePage() {
           >
             Obtenir un devis gratuit
           </a>
+
+          <a
+            href="/planification"
+            className="inline-block bg-primary/10 text-primary font-semibold py-3 px-6 rounded-lg shadow-sm hover:bg-primary/20"
+          >
+            Accéder au planning décolletage
+          </a>
         </div>
       </section>
 
